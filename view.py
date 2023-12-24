@@ -4,7 +4,7 @@ import json
 def input_choice():
     while True:
         number = input(text_fields.input_choice)
-        if number.isdigit() and 0 < int(number) < 6:
+        if number.isdigit() and 0 < int(number) < 7:
             return int(number)
         else:
             print(text_fields.wrong_choice)
